@@ -1,6 +1,7 @@
 <template>
   <div>我是首页
-  <span>haha</span></div>
+      <span>haha</span>
+  </div>
 </template>
 
 <script>
