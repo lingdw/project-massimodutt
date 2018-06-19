@@ -6,6 +6,8 @@ import router from './router'
 import 'lib-flexible/flexible'
 import axios from 'axios'
 import $ from 'jquery'
+import "./assets/css/iconfont.css"
+import "./assets/css/reset.css"
 
 Vue.prototype.$axios = axios;
 //生产环境打包时, 将其替换为http://localhost:8888/data
