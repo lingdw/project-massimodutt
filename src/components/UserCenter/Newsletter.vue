@@ -1,14 +1,15 @@
 <template>
-    <div></div>
+    <div>
+      NEWSLETTER
+    </div>
 </template>
 
 <script>
-
     export default {
-        name: "MyHead"
+        name: "Newsletter"
     }
 </script>
 
-<style  lang="less" scoped>
+<style scoped>
 
 </style>

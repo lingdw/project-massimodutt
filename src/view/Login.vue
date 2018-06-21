@@ -12,6 +12,7 @@
                   <div style="position: relative;top: 0; left: 0;">
                     <input type="text" placeholder="电子邮件*" ref="e-mail" @keyup="user()">
                     <i class="iconfont icon-chuyidong"></i>
+                    <i style="display:none;" class="iconfont icon-htmal5icon22"></i>
                   </div>
                   <span style="display:none">必须填写</span>
                   <span style="display:inline-block">请输入有效的电子邮箱</span>

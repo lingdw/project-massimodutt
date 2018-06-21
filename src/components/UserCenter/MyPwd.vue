@@ -1,14 +1,15 @@
 <template>
-    <div></div>
+    <div>
+      我的密码
+    </div>
 </template>
 
 <script>
-
     export default {
-        name: "MyHead"
+        name: "MyPwd"
     }
 </script>
 
-<style  lang="less" scoped>
+<style scoped>
 
 </style>

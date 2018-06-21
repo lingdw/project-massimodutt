@@ -9,7 +9,7 @@
 
 <script>
   import MyHead from './components/MyHead/MyHead'
-  
+
   export default {
     name: 'App',
     components: {

@@ -7,6 +7,12 @@ import GoodSearch from '../view/GoodSearch'
 import GoodDetail from '../view/GoodDetail'
 import ShoppingCart from '../view/ShoppingCart'
 import UserCenter from '../view/UserCenter'
+import MyIndent from "../components/UserCenter/MyIndent"
+import MyAddress from "../components/UserCenter/MyAddress"
+import MyProfile from "../components/UserCenter/MyProfile"
+import Newsletter from "../components/UserCenter/Newsletter"
+import Download from "../components/UserCenter/Download"
+import MyPwd from "../components/UserCenter/MyPwd"
 
 Vue.use(Router)
 
@@ -47,7 +53,41 @@ export default new Router({
       path: '/userCenter',
       name: 'UserCenter',
       component: UserCenter,
+      children:[
+        {
+          path:"/myIndent",
+          name:"MyIndent",
+          component: MyIndent,
+        },
+        {
+          path:"/myAddress",
+          name:"MyAddress",
+          component:MyAddress ,
+        },
+        {
+          path:"/myProfile",
+          name:"MyProfile",
+          component:MyProfile ,
+        },
+        {
+          path:"/newsletter",
+          name:"Newsletter",
+          component: Newsletter,
+        },
+        {
+          path:"/download",
+          name:"Download",
+          component: Download,
+        },
+        {
+          path:"/myPwd",
+          name:"MyPwd",
+          component:MyPwd,
+        },
+      ]
     },
+
+
   ],
   mode: 'history',
 })
