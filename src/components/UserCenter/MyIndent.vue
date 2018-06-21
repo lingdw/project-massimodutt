@@ -7,10 +7,9 @@
           <p>我的订单</p>
         </div>
       </div>
-      <div class="myIndent-con-box">
-        <div class="myIndent-con-box-con2">
-          <div class="myIndent-con" ref="indentCon">
-            <ul>
+      <div class="myIndent-con-box1">
+          <div>
+            <ul class="myIndent-con" ref="indentCon" >
               <li>
                 <div class="indent">
                   <div class="indent-left">
@@ -125,7 +124,6 @@
               </li>
             </ul>
           </div>
-        </div>
       </div>
       <div class="myIndent-cover-box">
         <div class="myIndent-cover">
