@@ -1,14 +1,15 @@
 <template>
-    <div></div>
+    <div>
+      下载应用
+    </div>
 </template>
 
 <script>
-
     export default {
-        name: "MyHead"
+        name: "Download"
     }
 </script>
 
-<style  lang="less" scoped>
+<style scoped>
 
 </style>
