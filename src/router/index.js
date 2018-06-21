@@ -53,41 +53,37 @@ export default new Router({
       path: '/userCenter',
       name: 'UserCenter',
       component: UserCenter,
-      children:[
-        {
-          path:"/myIndent",
-          name:"MyIndent",
-          component: MyIndent,
-        },
-        {
-          path:"/myAddress",
-          name:"MyAddress",
-          component:MyAddress ,
-        },
-        {
-          path:"/myProfile",
-          name:"MyProfile",
-          component:MyProfile ,
-        },
-        {
-          path:"/newsletter",
-          name:"Newsletter",
-          component: Newsletter,
-        },
-        {
-          path:"/download",
-          name:"Download",
-          component: Download,
-        },
-        {
-          path:"/myPwd",
-          name:"MyPwd",
-          component:MyPwd,
-        },
-      ]
     },
-
-
+    {
+      path:"/myIndent",
+      name:"MyIndent",
+      component: MyIndent,
+    },
+    {
+      path:"/myAddress",
+      name:"MyAddress",
+      component:MyAddress ,
+    },
+    {
+      path:"/myProfile",
+      name:"MyProfile",
+      component:MyProfile ,
+    },
+    {
+      path:"/newsletter",
+      name:"Newsletter",
+      component: Newsletter,
+    },
+    {
+      path:"/download",
+      name:"Download",
+      component: Download,
+    },
+    {
+      path:"/myPwd",
+      name:"MyPwd",
+      component:MyPwd,
+    },
   ],
   mode: 'history',
 })
